@@ -1,5 +1,5 @@
 import express from 'express';
-import { getAllReviews, createReview } from '../controllers/reviewControllers.js';
+import { getAllReviews, createReview } from '../Controllers/reviewControllers.js';
 import { authenticate, restrict } from '../auth/verifyToken.js';
 
 
