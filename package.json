@@ -19,7 +19,7 @@
     "start": "node index.js",
     "start-dev": "nodemon index.js"
   },
-  "author": "Tracy Marindany",
+  "author": "Kelvin Cheruiyot",
   "license": "ISC",
   "description": ""
 }
