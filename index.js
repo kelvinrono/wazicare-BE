@@ -18,7 +18,7 @@ app.use(cookieParser())
 app.use(express.urlencoded({extended: false}))
 app.use(bodyParser.json())
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5000'],
+  origin: ['https://therapy-app-swart.vercel.app/', 'https://therapy-app-t4cp.onrender.com'],
   credentials: true
 }));
 app.use('/api/auth', authRoutes)
